@@ -12,14 +12,13 @@ public class Person implements INoisemaker, IEater{
 
     private String name;
 
-
+    @Override
     public void eat(EdibleObject edibleObject) {
-
+        System.out.println(getClass().getSimpleName() + "eats ");
     }
-
 
     @Override
     public void makeNoise(String noise) {
-
+        System.out.println(getClass().getSimpleName() + " goes lol");
     }
 }

@@ -17,13 +17,10 @@ public class Farmer extends Person implements IEater, IBotanist, INoisemaker, IR
 
     public void makeNoise(String noise) {
         System.out.println("farmer says " +noise);
-
     }
 
     public void mount(RideableObject rideableObject) {
-
         System.out.println(getClass().getSimpleName() + " mounted the " + rideableObject.getName());
-
     }
 
     public void dismount(RideableObject rideableObject) {

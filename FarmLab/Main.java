@@ -6,7 +6,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //CAESAR
         EdibleObject edibleEgg = new EdibleObject();
         edibleEgg.setName("edibleEgg");
 
@@ -124,9 +123,6 @@ public class Main {
         //farm stores stable, chickencoop, farmhouse
         farm.store(stable,chickenCoop,farmHouse);*/
 
-        //KAM
-
-        //MYLES
         System.out.print("\n");
         Farm newFarm = new Farm();
         newFarm.setName("farm");
